@@ -1,7 +1,7 @@
 const BASE_IMG = "https://joncms95.github.io/static/assets";
 
 export const profile = {
-  name: "Jonathan Chan Mun Shum",
+  name: "Jonathan Chan",
   shortName: "Jonathan Chan",
   initials: "JC",
   title: "Senior Software Engineer",
@@ -36,11 +36,11 @@ export const experiences = [
     id: "dynamite",
     company: "Dynamite Games Sdn Bhd",
     location: "Kuala Lumpur, Malaysia",
-    overallPeriod: "June 2023 – Present",
+    overallPeriod: "Jun 2023 – Present",
     roles: [
       {
         title: "Senior Software Engineer",
-        period: "July 2025 – Present",
+        period: "Jul 2025 – Present",
         current: true,
         description: "Working with the backend team in web game development, collaborating with operations, QA and game design teams.",
         achievements: [
@@ -55,7 +55,7 @@ export const experiences = [
       },
       {
         title: "Software Engineer",
-        period: "June 2023 – June 2025",
+        period: "Jun 2023 – Jun 2025",
         duration: "2 years 1 month",
         achievements: [
           "End-to-end game development lifecycle involvement",
@@ -151,12 +151,12 @@ export const experiences = [
     company: "Fire Dragoon Esports Sdn Bhd",
     companyShort: "Fire Dragoon",
     location: "Petaling Jaya, Malaysia",
-    overallPeriod: "June 2017 – May 2018",
+    overallPeriod: "Jun 2017 – May 2018",
     duration: "1 year",
     roles: [
       {
         title: "Professional Player (League of Legends PC)",
-        period: "June 2017 – May 2018",
+        period: "Jun 2017 – May 2018",
         duration: "1 year",
         achievements: [
           "Rank 1 (Top 0.01%) on MY/SG server for multiple seasons",
@@ -173,12 +173,12 @@ export const experiences = [
     id: "jblau",
     company: "JB Lau & Khoo",
     location: "Petaling Jaya, Malaysia",
-    overallPeriod: "June 2018 – June 2019",
+    overallPeriod: "Jun 2018 – Jun 2019",
     duration: "1 year 1 month",
     roles: [
       {
         title: "Audit Associate",
-        period: "June 2018 – June 2019",
+        period: "Jun 2018 – Jun 2019",
         achievements: [
           "Complete audit assignments from pre-engagement to finalization",
           "Statutory audits for dormant companies and SMEs",
