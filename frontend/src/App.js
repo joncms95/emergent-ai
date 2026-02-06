@@ -1,5 +1,4 @@
 import React from "react";
-import "@/App.css";
 import Navbar from "@/components/portfolio/Navbar";
 import Hero from "@/components/portfolio/Hero";
 import Experience from "@/components/portfolio/Experience";
