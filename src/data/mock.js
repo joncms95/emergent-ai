@@ -36,12 +36,12 @@ export const experiences = [
     id: "dynamite",
     company: "Dynamite Games Sdn Bhd",
     location: "Kuala Lumpur, Malaysia",
-    overallPeriod: "Jun 2023 – Present",
+    overallPeriod: "Jun 2023 – Apr 2026",
     roles: [
       {
         title: "Senior Software Engineer",
-        period: "Jul 2025 – Present",
-        current: true,
+        period: "Jul 2025 – Apr 2026",
+        duration: "10 months",
         description: "Working with the backend team in web game development, collaborating with operations, QA and game design teams.",
         achievements: [
           "Spearheaded CI testing integration with real-time logging and TDD enforcement",
@@ -251,6 +251,26 @@ export const skills = {
 };
 
 export const projects = [
+  {
+    id: "geckolink",
+    title: "GeckoLink",
+    subtitle: "Web Application Development",
+    description:
+      "A URL shortener with real-time analytics and geolocation tracking. Paste a long URL to get a short link, share it anywhere, and see analytics in a simple dashboard.",
+    link: "https://geckolink.vercel.app/",
+    tech: ["Ruby on Rails", "React", "PostgreSQL", "Redis", "Digital Ocean", "Vercel"],
+    features: [
+      "Shorten URLs and share compact links",
+      "Real-time visit analytics in a dashboard",
+      "Geolocation insights for link traffic"
+    ],
+    images: [
+      { src: `${BASE_IMG}/projects/geckolink/home.jpg`, caption: "Home" },
+      { src: `${BASE_IMG}/projects/geckolink/login.jpg`, caption: "Sign in" },
+      { src: `${BASE_IMG}/projects/geckolink/shorten.jpg`, caption: "Shorten a link" }
+    ],
+    period: "Apr 2026 – Present"
+  },
   {
     id: "banpick",
     title: "Ban Pick Tool",
