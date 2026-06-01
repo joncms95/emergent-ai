@@ -4,8 +4,8 @@ export const profile = {
   name: "Jonathan Chan",
   shortName: "Jonathan Chan",
   initials: "JC",
-  title: "Senior Software Engineer",
-  company: "Dynamite Games",
+  title: "Mid-Level Software Engineer",
+  company: "CoinGecko",
   tagline: "From competitive gaming arenas to elegant code architecture — building fast, scalable, and meaningful products.",
   bio: [
     "An avid gamer turned tech enthusiast, with a diverse journey from accounting to esports to software engineering.",
@@ -32,6 +32,22 @@ export const navLinks = [
 ];
 
 export const experiences = [
+  {
+    id: "coingecko",
+    company: "CoinGecko",
+    location: "Petaling Jaya, Malaysia",
+    overallPeriod: "May 2026 – Present",
+    roles: [
+      {
+        title: "Mid-Level Software Engineer",
+        period: "May 2026 – Present",
+        current: true,
+        achievements: []
+      }
+    ],
+    tech: [],
+    type: "tech"
+  },
   {
     id: "dynamite",
     company: "Dynamite Games Sdn Bhd",
