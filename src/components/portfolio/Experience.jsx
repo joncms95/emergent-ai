@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { experiences } from "@/data/mock";
 import { Badge } from "@/components/ui/badge";
-import { Briefcase, Gamepad2, Calculator, MapPin, ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
+import { Laptop, Gamepad2, Calculator, MapPin, ChevronDown, ChevronUp, ExternalLink } from "lucide-react";
 
 const typeIcon = {
-  tech: Briefcase,
+  tech: Laptop,
   esports: Gamepad2,
   accounting: Calculator,
 };
@@ -24,7 +24,7 @@ const typeLineColor = {
 
 const ExperienceCard = ({ exp, index }) => {
   const [expanded, setExpanded] = useState(index === 0);
-  const Icon = typeIcon[exp.type] || Briefcase;
+  const Icon = typeIcon[exp.type] || Laptop;
 
   return (
     <motion.div
