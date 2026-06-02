@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
 
             <a
-              href={`tel:${profile.phone.replace(/\s/g, "")}`}
+              href={`tel:${profile.phone.replace(/[^\d+]/g, "")}`}
               className="flex items-center gap-3 p-3 rounded-lg border border-zinc-800/50 hover:border-zinc-700 hover:bg-zinc-900/30 transition-colors duration-200 group"
             >
               <div className="p-2 rounded-md bg-sky-400/10 text-sky-400">

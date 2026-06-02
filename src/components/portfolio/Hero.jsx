@@ -67,7 +67,7 @@ const Hero = () => {
                 {profile.email}
               </a>
               <span className="w-1 h-1 rounded-full bg-zinc-700" />
-              <a href={`tel:${profile.phone.replace(/\s/g, "")}`} className="inline-flex items-center gap-1.5 hover:text-sky-400 transition-colors duration-200">
+              <a href={`tel:${profile.phone.replace(/[^\d+]/g, "")}`} className="inline-flex items-center gap-1.5 hover:text-sky-400 transition-colors duration-200">
                 <Phone size={14} className="text-zinc-600" />
                 {profile.phone}
               </a>
