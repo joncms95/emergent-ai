@@ -13,7 +13,7 @@ export const profile = {
   ],
   image: `${BASE_IMG}/profile.png`,
   location: "Kuala Lumpur, Malaysia",
-  phone: "+60 16-5105019",
+  phone: "(+60)16-5105019",
   email: "joncms95@hotmail.com",
   resumeUrl: "https://joncms95.github.io/resume.pdf",
   links: {
@@ -274,7 +274,7 @@ export const projects = [
     description:
       "A URL shortener with real-time analytics and geolocation tracking. Paste a long URL to get a short link, share it anywhere, and see analytics in a simple dashboard.",
     link: "https://geckolink.vercel.app/",
-    tech: ["Ruby on Rails", "React", "PostgreSQL", "Redis", "Digital Ocean", "Vercel"],
+    tech: ["Ruby on Rails", "React", "PostgreSQL", "Redis", "Render", "Vercel"],
     features: [
       "Shorten URLs and share compact links",
       "Real-time visit analytics in a dashboard",
@@ -292,7 +292,7 @@ export const projects = [
     title: "Ban Pick Tool",
     subtitle: "Mobile Legends Draft Simulator",
     description: "Ban pick tool simulating the Mobile Legends Draft Pick selection phase for competitive tournaments.",
-    link: "https://www.mlbbdraft.xyz/",
+    link: "https://mlbb-ban-pick.vercel.app/",
     tech: ["Flask", "Python", "Socket.IO", "JavaScript", "MongoDB", "Nginx"],
     features: [
       "Draft creation with team name customization",
