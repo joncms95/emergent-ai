@@ -45,7 +45,7 @@ export const experiences = [
         achievements: []
       }
     ],
-    tech: [],
+    tech: ["Ruby on Rails", "Sidekiq", "Tailwind CSS", "RSpec", "PostgreSQL", "Redis", "GitHub", "Dokku", "AWS", "Linear"],
     type: "tech"
   },
   {
@@ -258,11 +258,11 @@ export const education = [
 export const skills = {
   languages: ["Ruby", "Python", "Haml", "HTML", "CSS", "JavaScript"],
   frameworks: ["Ruby on Rails", "Sidekiq", "Socket.IO", "Flask", "RESTful API", "gRPC", "Bootstrap"],
-  databases: ["MongoDB", "SQLite", "Redis"],
-  devops: ["Docker", "Kubernetes", "Jenkins", "Nginx", "Gunicorn", "AWS", "Digital Ocean", "Vercel"],
-  tools: ["Bash", "Git", "GitHub", "GitLab", "Sourcetree", "Postman", "Lens", "Rancher"],
-  ai: ["ChatGPT", "Google Gemini", "GitHub Copilot", "Cursor"],
-  practices: ["Agile", "Jira", "Trello", "Slack"],
+  databases: ["PostgreSQL", "MongoDB", "SQLite", "Redis"],
+  devops: ["Dokku", "Docker", "Kubernetes", "Lens", "Rancher", "Nginx", "Gunicorn", "Digital Ocean", "Vercel", "AWS"],
+  tools: ["Bash", "Git", "GitHub", "GitLab", "Sourcetree", "Postman", "Jenkins"],
+  ai: ["Claude Code", "ChatGPT", "Google Gemini", "GitHub Copilot", "Cursor"],
+  practices: ["Agile", "Jira", "Linear", "Slack", "Trello"],
   communication: ["English", "Mandarin", "Malay", "Cantonese"]
 };
 
